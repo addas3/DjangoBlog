@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 # 8000-addas3-djangoblog-z66uon86s1c.ws-eu104.gitpod.io
-ALLOWED_HOSTS = ['django-blog-codestar-addas3.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['django-blog-codestar-addas3.herokuapp.com', 'localhost', '8000-addas3-djangoblog-z66uon86s1c.ws-eu104.gitpod.io',]
 
 
 # Application definition
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
