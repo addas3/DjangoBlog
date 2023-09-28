@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['django-blog-codestar-addas3.herokuapp.com', 'localhost', '8000-addas3-djangoblog-z66uon86s1c.ws-eu105.gitpod.io',]
+ALLOWED_HOSTS = ['django-blog-codestar-addas3.herokuapp.com', 'localhost', '8000-addas3-djangoblog-z66uon86s1c.ws-eu105.gitpod.io']
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
